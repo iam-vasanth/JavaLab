@@ -1,6 +1,5 @@
-package EX9;
 import java.sql.*;
-public class JdbcAccess {
+public class JdbcAccessTest {
 public static void main(String[] args) {
     String databaseURL = "jdbc:ucanaccess://C:/Users/User/Documents/College/Java/JavaLab/EX9/Contacts.accdb";
         try (Connection connection = DriverManager.getConnection(databaseURL)) {
