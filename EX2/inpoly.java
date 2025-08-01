@@ -7,24 +7,20 @@ class Vehicle
         System.out.println("Vehicle is starting...");
     }
 }
-
 class Car extends Vehicle 
 {
     String brand = "Car";
-
     @Override
     void start() 
     {
         System.out.println("Car is starting with a key...");
     }
-
-  class Engine {
+    class Engine {
         void engineSound() {
             System.out.println("Engine is running smoothly!");
         }
     }
 }
-
 public class inpoly {
     public static void main(String[] args) {
         Vehicle myVehicle = new Car();
