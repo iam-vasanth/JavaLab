@@ -1,10 +1,9 @@
 import java.sql.*;
 public class JdbcAccessTest {
 public static void main(String[] args) {
-    String databaseURL = "jdbc:ucanaccess://C:/Users/User/Documents/College/Java/JavaLab/EX9/Contacts.accdb";
+    String databaseURL = "jdbc:ucanaccess://home/zoro/Documents/College/Java/EX9/Contacts.accdb";
         try (Connection connection = DriverManager.getConnection(databaseURL)) {
             String sql = "INSERT INTO Contacts (Full_Name, Email, Phone) VALUES (?, ?, ?)";
-             
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, "Jim Rohn");
             preparedStatement.setString(2, "rohnj@herbalife.com");
