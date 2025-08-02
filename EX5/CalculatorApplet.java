@@ -1,4 +1,4 @@
-package Test;
+package EX5;
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
