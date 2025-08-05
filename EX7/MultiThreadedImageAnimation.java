@@ -10,9 +10,9 @@ public class MultiThreadedImageAnimation extends JFrame {
     JLabel label3 = new JLabel();
 
     String[] imagePaths = {
-        "/home/zoro/Documents/College/Java/EX7/cat1.jpeg", 
-        "/home/zoro/Documents/College/Java/EX7/cat2.jpeg", 
-        "/home/zoro/Documents/College/Java/EX7/cat3.jpeg"
+        "cat1.jpeg", 
+        "cat2.jpeg", 
+        "cat3.jpeg"
     };
 
     public MultiThreadedImageAnimation() {
